@@ -112,6 +112,7 @@ public class GamePanel extends JPanel implements ActionListener {
 		
 	}
 	public void checkApple() {
+//code segmentation  running in the app builder
 		if((x[0] == appleX) && (y[0] == appleY)) {
 			bodyParts++;
 			applesEaten++;
@@ -147,6 +148,7 @@ public class GamePanel extends JPanel implements ActionListener {
 		}
 	}
 	public void gameOver(Graphics g) {
+// graphical user representation  of the end game community 
 		//Score
 		g.setColor(Color.red);
 		g.setFont( new Font("Ink Free",Font.BOLD, 40));
@@ -181,16 +183,19 @@ public class GamePanel extends JPanel implements ActionListener {
 			case KeyEvent.VK_RIGHT:
 				if(direction != 'L') {
 					direction = 'R';
+//reversal method obligation
 				}
 				break;
 			case KeyEvent.VK_UP:
 				if(direction != 'D') {
 					direction = 'U';
+// upper case segmentation of the inner calss loop 
 				}
 				break;
 			case KeyEvent.VK_DOWN:
 				if(direction != 'U') {
 					direction = 'D';
+//down class ineer segmentation
 				}
 				break;
 			}
