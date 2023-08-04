@@ -168,7 +168,7 @@ public class GamePanel extends JPanel implements ActionListener {
 			checkApple();
 			checkCollisions();
 		}
-		repaint();
+		repaint();// method is using for the method calling in satic declarations of the variable
 	}
 	
 	public class MyKeyAdapter extends KeyAdapter{
