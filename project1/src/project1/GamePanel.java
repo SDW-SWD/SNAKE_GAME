@@ -41,7 +41,7 @@ public class GamePanel extends JPanel implements ActionListener {
 		this.setFocusable(true);
 		this.addKeyListener((KeyListener) new MyKeyAdapter());
 		startGame();
-	}
+	}// parameterles construct to create source to db connection
 	public void startGame() {
 		newApple();
 		running = true;
